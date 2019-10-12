@@ -4,7 +4,7 @@
 var blueCrystal = 0
 var redCrystal = 0
 var greenCrystal =0 
-var purpleCrystal = 0
+var purpleCrystal = 0 // thise need to be randos 
 
 // var crystal = {
 //     blue:
@@ -28,7 +28,17 @@ $(".gems").on("click",function(){
 var chosenCrystal=$(this).attr("alt")
 console.log(chosenCrystal)
     // get the value of the gem
+    // IF STATEMNET ( w3 schools and looke up if statmetn )
+    // if the chosenCristal === "purple crystal" 
+        // scrore = scroe + purpleScristal
+    // if the schoscristal === " red crysl"
     // add that value to the your score
+
+
+    // is target the same as score
+        // do something 
+    // is target over score
+        // do something wink wink you lose
 })
 
 
