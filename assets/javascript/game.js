@@ -8,7 +8,9 @@ var purpleCrystal = 0 // thise need to be randos
 
 // var crystal = {
 //     blue:
-//     {name : "Blue",}
+//     {name : "Blue",
+     0
+    }
 // }
 
 // create  a variable called target
@@ -30,20 +32,23 @@ console.log(chosenCrystal)
     // get the value of the gem
     // IF STATEMNET ( w3 schools and looke up if statmetn )
     // if the chosenCristal === "purple crystal" 
-        // scrore = scroe + purpleScristal
-    // if the schoscristal === " red crysl"
+        // scrore = scroe + purplecristal
+    // if the schoscristal === " red crystal"
     // add that value to the your score
 
 
     // is target the same as score
-        // do something 
+        // do something alert you win
     // is target over score
-        // do something wink wink you lose
+        // do something you lose
 })
 
 
 //Functions
 //
+var CurrentScore = 0; 
+
+targetScore = Math.floor(Math.random())
 
 
 //Main Process
